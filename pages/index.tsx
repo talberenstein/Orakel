@@ -1,20 +1,24 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import { Grid, Image } from 'semantic-ui-react'
 import styles from '../styles/Home.module.css'
+
 
 
 export default function Home() {
   const indexImg = 'doormenora.jpeg'
   const logoImg = 'logoOrakel.jpeg'
-  const lightImg = 'light6.jpg'
+  const lightImg = 'candle2.gif'
   return (
     <div className={styles.container}>
       <Head>
         <title>Orakel Förlag</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+    
 
       <main className={styles.main}>
+
         <Grid columns={2}>
           <Grid.Column>
             <Grid.Row>
@@ -23,7 +27,9 @@ export default function Home() {
 
             <Grid.Row>
               <Grid.Column className={styles.menu}>
-              <h1 className={styles.title}>PROFETIA</h1>
+                <Link href="/asdf"> 
+                  <h1 className={styles.title}>PROFETIA</h1>
+                </Link>
               <h1 className={styles.title}>BÖKER</h1>
               <h1 className={styles.title}>FÖRFATTARE</h1>
               <h1 className={styles.title}>PROJEKT</h1>
