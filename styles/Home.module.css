@@ -1,4 +1,5 @@
 .container {
+  background-color: rgb(1, 2, 1);
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -30,9 +31,31 @@
 }
 
 .footer a {
+  color: whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.logo {
+  border-radius: 10px;
+  opacity: 80%;
+}
+.logo:hover {
+  opacity: 100%;
+}
+
+.imgIndex {
+  margin-top: 15%;
+  opacity: 80%;
+  box-shadow: rgba(206, 186, 199, 0.4) 5px 5px,
+    rgba(190, 170, 183, 0.3) 10px 10px, rgba(201, 182, 194, 0.2) 15px 15px,
+    rgba(184, 162, 176, 0.1) 20px 20px, rgba(165, 153, 161, 0.05) 25px 25px;
+  border-radius: 10px;
+}
+
+.imgIndex:hover {
+  opacity: 100%;
 }
 
 .title a {
@@ -49,17 +72,31 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2rem;
+  color: white;
+  text-align: left;
 }
 
 .title,
 .description {
-  text-align: center;
+  text-align: left;
+  margin-bottom: 10%;
 }
 
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.menu {
+  margin-top: 15%;
+}
+
+.light {
+  opacity: 30%;
+  border-radius: 0%;
+  margin-right: 35%;
+  margin-top: -2%;
 }
 
 .code {
