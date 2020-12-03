@@ -14,6 +14,10 @@ export default function Home() {
       <Head>
         <title>Orakel Förlag</title>
         <link rel="icon" href="/favicon.ico" />
+        <div className={styles.header}>
+            <strong className={styles.kop}>KÖP</strong>
+        </div>
+
       </Head>
     
 
@@ -30,7 +34,7 @@ export default function Home() {
                 <Link href="/profetia"> 
                   <h1 className={styles.title}>PROFETIA</h1>
                 </Link>
-              <h1 className={styles.title}>BÖKER</h1>
+              <h1 className={styles.title}>BÖCKER</h1>
               <h1 className={styles.title}>FÖRFATTARE</h1>
               <h1 className={styles.title}>PROJEKT</h1>
               <h1 className={styles.title}>KONTAKT</h1>

@@ -1,4 +1,7 @@
 html,
+head {
+  background-color: darkolivegreen;
+}
 body {
   padding: 0;
   margin: 0;

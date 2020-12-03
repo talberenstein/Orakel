@@ -16,8 +16,14 @@ export default function profetia() {
          <link rel="icon" href="/favicon.ico" />
      </Head>
      <Link href="/">
-            <Image className={styles.logo} src={logoImg} size="tiny"/>
-         </Link>
+         <div>
+              <Image className={styles.logo} src={logoImg} size="tiny"/>
+              <strong className={styles.title}>↩ Hemsida</strong>
+              <strong className={styles.title}> | </strong>
+              <strong className={styles.title}> Böcker ↪</strong>
+         </div>
+       
+    </Link>
      <main className={styles.main}>
      <Grid celled='internally'>
     <Grid.Row>

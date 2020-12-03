@@ -75,6 +75,7 @@
   margin-top: 1rem;
   opacity: 80%;
   border-radius: 20%;
+  margin-left: 25%;
 }
 .logo:hover {
   opacity: 100%;
@@ -83,6 +84,15 @@
 .text {
   color: white;
   font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+  vertical-align: middle;
+}
+
+.title {
+  color: darkolivegreen;
+  font-size: 15px;
   margin-left: auto;
   margin-right: auto;
   width: 30em;

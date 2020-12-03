@@ -1,3 +1,11 @@
+.header {
+  background-color: darkolivegreen;
+  text-align: right;
+}
+.kop {
+  margin-right: 3%;
+}
+
 .container {
   background-color: rgb(1, 2, 1);
   min-height: 100vh;
