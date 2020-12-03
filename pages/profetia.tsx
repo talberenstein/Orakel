@@ -15,17 +15,23 @@ export default function profetia() {
          <title>Profetia - Orakel Förlag</title>
          <link rel="icon" href="/favicon.ico" />
      </Head>
-     <main className={styles.main}>
-         <Link href="/">
-            <Image className={styles.logo} src={logoImg} size="small"/>
+     <Link href="/">
+            <Image className={styles.logo} src={logoImg} size="tiny"/>
          </Link>
+     <main className={styles.main}>
      <Grid celled='internally'>
     <Grid.Row>
       <Grid.Column width={3}>
         <Image src={profetiaImg1} />
       </Grid.Column>
       <Grid.Column width={10}>
-        
+          <div className={styles.text}>
+             <p>DIOS NOS BENDIGA PERO NO NOS GUARDE</p> 
+             <p>av begripliga skäl dunkla och tvetydiga / den i någon mån alltid ovissa utgången / där gudomen låter göra sin röst hörd / för vilket de blivit ökända</p> 
+             <p>bedjen, och eder skall varda givet / söken, och I skolen finna / klappen, och för eder skall varda upplåtet</p> 
+             <p>Sveriges enda heliga förlag / klarsynta böcker av kompakt vansinne</p> 
+          </div>
+
       </Grid.Column>
       <Grid.Column width={3}>
         <Image src={profetiaImg1}/>

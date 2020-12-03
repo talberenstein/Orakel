@@ -72,9 +72,19 @@
 .logo {
   height: 1em;
   margin-bottom: 1rem;
+  margin-top: 1rem;
   opacity: 80%;
   border-radius: 20%;
 }
 .logo:hover {
   opacity: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+  vertical-align: middle;
 }
