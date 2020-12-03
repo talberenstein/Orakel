@@ -27,7 +27,7 @@ export default function Home() {
 
             <Grid.Row>
               <Grid.Column className={styles.menu}>
-                <Link href="/asdf"> 
+                <Link href="/profetia"> 
                   <h1 className={styles.title}>PROFETIA</h1>
                 </Link>
               <h1 className={styles.title}>BÖKER</h1>
