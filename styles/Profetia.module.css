@@ -73,6 +73,7 @@
   height: 1em;
   margin-bottom: 1rem;
   opacity: 80%;
+  border-radius: 20%;
 }
 .logo:hover {
   opacity: 100%;
