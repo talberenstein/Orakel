@@ -1,0 +1,21 @@
+@import '../theme/theme';
+
+.Layout {
+  .Content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    min-height: 100%;
+
+    background: $secondary;
+    color: $on-secondary;
+    font-family: $core-font;
+
+    a {
+      color: inherit;
+    }
+  }
+}
