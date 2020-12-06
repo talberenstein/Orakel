@@ -19,13 +19,13 @@ export default function Home() {
               <Grid.Row>
                 <Grid.Column className={styles.menu}>
                   <Link href="/profetia">
-                    <h1 className={styles.title}>PROFETIA</h1>
+                    <h1 className={styles.title}>Profetia</h1>
                   </Link>
-                  <h1 className={styles.title}>BÖCKER</h1>
-                  <h1 className={styles.title}>FÖRFATTARE</h1>
-                  <h1 className={styles.title}>PROJEKT</h1>
-                  <h1 className={styles.title}>KONTAKT</h1>
-                  <h1 className={styles.title}>MANUS</h1>
+                  <h1 className={styles.title}>Böcker</h1>
+                  <h1 className={styles.title}>Författare</h1>
+                  <h1 className={styles.title}>Projekt</h1>
+                  <h1 className={styles.title}>Kontakt</h1>
+                  <h1 className={styles.title}>Manus</h1>
                 </Grid.Column>
               </Grid.Row>
             </Grid.Column>

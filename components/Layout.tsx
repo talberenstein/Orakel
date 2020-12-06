@@ -5,13 +5,13 @@ import styles from '../styles/Layout.module.scss';
 import Head from 'next/head';
 
 const Layout = props => (
-  <div className={styles.layoutStyle}>
+  <div className={styles.Layout}>
     <Head>
       <title> Orakel Förlag</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <Header />
-    <div className={styles.contentStyle}>{props.children}</div>
+    <div className={styles.Content}>{props.children}</div>
     <NavBar navButtons={navButtons} />
   </div>
 );

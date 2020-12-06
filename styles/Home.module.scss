@@ -1,12 +1,8 @@
 .container {
   background-color: rgb(1, 2, 1);
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
+  padding: 1rem 1rem 9rem 1rem;
+  width: auto;
+  height: auto;
 }
 
 .main {
@@ -16,8 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  height: auto;
 }
 
 .logo {
@@ -36,6 +31,7 @@
 
 .imgIndex:hover {
   opacity: 100%;
+  cursor: pointer;
 }
 
 .title a {
@@ -55,6 +51,7 @@
   font-size: 2rem;
   color: white;
   text-align: left;
+  cursor: pointer;
 }
 
 .title,
