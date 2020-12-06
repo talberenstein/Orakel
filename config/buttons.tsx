@@ -13,8 +13,8 @@ const navButtons = [
     icon: <FontAwesomeIcon icon={faBookOpen} />
   },
   {
-    label: 'My Cart',
-    path: '/mycart',
+    label: 'Profetia',
+    path: '/profetia',
     icon: <FontAwesomeIcon icon={faShoppingCart} />
   },
   {

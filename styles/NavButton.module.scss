@@ -1,5 +1,4 @@
 .NavButton {
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -9,7 +8,31 @@
   cursor: pointer;
 
   .Icon {
-    font-size: 20px;
+    font-size: 14px;
+  }
+
+  .Label {
+    font-size: 12px;
+    text-transform: capitalize;
+  }
+
+  .Active {
+    color: darkolivegreen;
+  }
+}
+
+.NavButton_active {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: darkolivegreen;
+
+  height: 100%;
+
+  cursor: pointer;
+
+  .Icon {
+    font-size: 14px;
   }
 
   .Label {

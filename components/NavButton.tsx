@@ -1,14 +1,20 @@
 import Link from 'next/link';
+import { withRouter } from 'next/router';
 
 import styles from '../styles/NavButton.module.scss';
 
-export default function NavButton(props) {
-  return (
-    <Link href={props.path}>
-      <div className={styles.NavButton + styles.active}>
-        <div className="Icon">{props.icon}</div>
-        <span className="Label">{props.label}</span>
-      </div>
-    </Link>
-  );
-}
+const NavButton = props => (
+  <Link href={props.path}>
+    <div
+      className={`${styles.NavButton} ${
+        props.router.pathname === props.path ? styles.NavButton_active : ''
+      }
+        `}
+    >
+      <div className={styles.Icon}>{props.icon}</div>
+      <span className={styles.Label}>{props.label}</span>
+    </div>
+  </Link>
+);
+
+export default withRouter(NavButton);
