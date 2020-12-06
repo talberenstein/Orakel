@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faCompass,
+  faBookOpen,
   faUser,
   faShoppingCart
 } from '@fortawesome/free-solid-svg-icons';
@@ -10,7 +10,7 @@ const navButtons = [
   {
     label: 'Home',
     path: '/',
-    icon: <FontAwesomeIcon icon={faCompass} />
+    icon: <FontAwesomeIcon icon={faBookOpen} />
   },
   {
     label: 'My Cart',
