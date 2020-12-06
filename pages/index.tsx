@@ -3,14 +3,16 @@ import { Grid, Image } from 'semantic-ui-react';
 import Layout from '../components/Layout';
 import styles from '../styles/Home.module.scss';
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export default function Home() {
   const indexImg = 'doormenora.jpeg';
   const logoImg = 'logoOrakel.jpeg';
+  const candleImg = 'candle.gif';
   return (
     <Layout>
       <div className={styles.container}>
         <main className={styles.main}>
-          <Grid columns={2}>
+          <Grid columns={3}>
             <Grid.Column>
               <Grid.Row>
                 <Image className={styles.logo} src={logoImg} size="small" />
@@ -31,7 +33,15 @@ export default function Home() {
             </Grid.Column>
 
             <Grid.Column>
-              <Image className={styles.imgIndex} src={indexImg} size="medium" />
+              <Image className={styles.imgIndex} src={indexImg} size="large" />
+            </Grid.Column>
+
+            <Grid.Column>
+              <Image
+                className={styles.imgIndex}
+                src={candleImg}
+                size="medium"
+              />
             </Grid.Column>
           </Grid>
         </main>

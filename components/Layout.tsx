@@ -4,6 +4,7 @@ import navButtons from '../config/buttons';
 import styles from '../styles/Layout.module.scss';
 import Head from 'next/head';
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 const Layout = props => (
   <div className={styles.Layout}>
     <Head>
