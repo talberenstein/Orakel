@@ -7,9 +7,7 @@ const NavButton = props => (
   <Link href={props.path}>
     <div
       className={`${styles.NavButton} ${
-        props.router.pathname === props.path
-          ? styles.NavButton_active
-          : console.log('asdfdsafdsaf')
+        props.router.pathname === props.path ? styles.NavButton_active : ''
       }
         `}
     >
