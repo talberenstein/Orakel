@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { Grid, Image, Message } from 'semantic-ui-react';
 import Layout from '../components/Layout';
-import styles from '../styles/Profetia.module.css';
+import styles from '../styles/Profetia.module.scss';
 
 export default function profetia() {
   const logoImg = 'logoOrakel.jpeg';

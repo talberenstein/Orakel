@@ -11,7 +11,7 @@ const Layout = props => (
       <title> Orakel Förlag</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <Header />
+    <Header title={props.title} />
     <div className={styles.Content}>{props.children}</div>
     <NavBar navButtons={navButtons} />
   </div>

@@ -1,4 +1,4 @@
-import '../styles/globals.css';
+import '../styles/globals.scss';
 import 'semantic-ui-css/semantic.min.css';
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types

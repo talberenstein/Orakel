@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+body > div:first-child,
+div#__next {
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  display: absolute;
+  flex-direction: column;
+}

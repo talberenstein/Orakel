@@ -1,29 +1,30 @@
 .container {
   background-color: rgb(1, 2, 1);
-  padding: 1rem 1rem 9rem 1rem;
+  padding: 1rem 1rem 4rem 1rem;
   width: auto;
-  height: auto;
+  height: 100%;
 }
 
 .main {
-  padding: 2rem 0;
-  flex: 1;
-  display: flex;
+  display: absolute;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: auto;
+  min-height: 100%;
 }
 
 .logo {
   border-radius: 90px;
-  opacity: 100%;
+  opacity: 80%;
+  text-align: center;
 }
 
 .imgIndex {
-  margin-top: 20%;
   opacity: 80%;
   border-radius: 10px;
+}
+
+.bookIndex {
 }
 
 .imgIndex:hover {

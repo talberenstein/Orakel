@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import styles from '../styles/Header.module.scss';
 
-const Header = () => (
+const Header = props => (
   <Link href="/">
-    <div className={styles.Header}>{'>'} Orakel Förlag</div>
+    <div className={styles.Header}>{props.title}</div>
   </Link>
 );
 
