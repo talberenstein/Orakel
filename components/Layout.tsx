@@ -1,18 +1,23 @@
+import React, { FunctionComponent } from 'react';
 import Header from './Header';
 import NavBar from './NavBar';
 import navButtons from '../config/buttons';
 import styles from '../styles/Layout.module.scss';
 import Head from 'next/head';
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-const Layout = props => (
+// no children defined here
+type LayoutProps = {
+  title: string;
+};
+
+const Layout: FunctionComponent<LayoutProps> = ({ title, children }) => (
   <div className={styles.Layout}>
     <Head>
       <title> Orakel Förlag</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <Header title={props.title} />
-    <div className={styles.Content}>{props.children}</div>
+    <Header title={title} />
+    <div className={styles.Content}>{children}</div>
     <NavBar navButtons={navButtons} />
   </div>
 );

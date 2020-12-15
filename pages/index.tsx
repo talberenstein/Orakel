@@ -1,16 +1,14 @@
 import Link from 'next/link';
-import { Fragment } from 'react';
 import { Grid, Image } from 'semantic-ui-react';
 import Layout from '../components/Layout';
 import styles from '../styles/Home.module.scss';
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export default function Home() {
   const indexImg = 'doormenora.jpeg';
   const logoImg = 'logoOrakel.jpeg';
   // const candleImg = 'ZINK.jpeg';
   return (
-    <Layout title="Orakel Förlag">
+    <Layout title="Orakel Förlag - Home">
       <div className={styles.container}>
         <main className={styles.main}>
           <div>
@@ -25,7 +23,7 @@ export default function Home() {
             <Grid.Row>
               <Grid.Column width={7}>
                 <Link href="/profetia">
-                  <h1>Profetia</h1>
+                  <h1 className={styles.title}>Profetia</h1>
                 </Link>
                 <h1>Böcker</h1>
                 <h1>Författare</h1>

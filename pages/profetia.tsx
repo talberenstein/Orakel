@@ -11,7 +11,7 @@ export default function profetia() {
   const profetiaImg3 = 'profetia/profetia_3.jpg';
   const profetiaImg4 = 'profetia/profetia_4.jpg';
   return (
-    <Layout>
+    <Layout title="Orakel Förlag - Profetia">
       <div className={styles.container}>
         <main className={styles.main}>
           <Grid></Grid>

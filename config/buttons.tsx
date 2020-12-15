@@ -1,25 +1,25 @@
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBookOpen,
   faUser,
-  faShoppingCart
+  faShoppingCart,
+  faHome
 } from '@fortawesome/free-solid-svg-icons';
 
 const navButtons = [
   {
     label: 'Home',
     path: '/',
-    icon: <FontAwesomeIcon icon={faBookOpen} />
+    icon: <FontAwesomeIcon icon={faHome} />
   },
   {
     label: 'Böcker',
     path: '/bocker',
-    icon: <FontAwesomeIcon icon={faUser} />
+    icon: <FontAwesomeIcon icon={faBookOpen} />
   },
   {
     label: 'My Cart',
-    path: '/profetia',
+    path: '/mycart',
     icon: <FontAwesomeIcon icon={faShoppingCart} />
   },
   {

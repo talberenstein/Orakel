@@ -3,21 +3,11 @@
   justify-content: space-around;
   align-items: center;
 
-  height: 100%;
-
   cursor: pointer;
 
-  .Icon {
-    font-size: 10px;
-  }
-
   .Label {
-    font-size: 9px;
+    font-size: 0.9em;
     text-transform: capitalize;
-  }
-
-  .Active {
-    color: darkolivegreen;
   }
 }
 
@@ -27,16 +17,10 @@
   align-items: center;
   color: darkolivegreen;
 
-  height: 100%;
-
   cursor: pointer;
 
-  .Icon {
-    font-size: 10px;
-  }
-
   .Label {
-    font-size: 9px;
+    font-size: 0.9em;
     text-transform: capitalize;
   }
 }
