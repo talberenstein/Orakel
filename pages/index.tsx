@@ -26,9 +26,13 @@ export default function Home() {
                   <h1 className={styles.title}>Profetia</h1>
                 </Link>
                 <h1>Böcker</h1>
-                <h1>Författare</h1>
+                <Link href="/forfattare">
+                  <h1 className={styles.title}>Författare</h1>
+                </Link>
                 <h1>Projekt</h1>
-                <h1>Kontakt</h1>
+                <Link href="/kontakt">
+                  <h1 className={styles.title}>Kontakt</h1>
+                </Link>
                 <h1>Manus</h1>
               </Grid.Column>
               <Grid.Column width={8}>
