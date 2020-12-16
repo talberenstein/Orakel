@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React from 'react';
 import Header from './Header';
 import NavBar from './NavBar';
 import navButtons from '../config/buttons';
@@ -10,10 +10,10 @@ type LayoutProps = {
   title: string;
 };
 
-const Layout: FunctionComponent<LayoutProps> = ({ title, children }) => (
+const Layout: React.FC<LayoutProps> = ({ title, children }) => (
   <div className={styles.Layout}>
     <Head>
-      <title> Orakel Förlag</title>
+      <title> {title}</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <Header title={title} />

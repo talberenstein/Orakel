@@ -4,15 +4,17 @@ import Layout from '../components/Layout';
 import styles from '../styles/Home.module.scss';
 
 type HomeProps = {
+  title: string;
   logoImg: string;
   indexImg: string;
 };
 
 const Home: React.FC<HomeProps> = ({
+  title = 'Orakel Förlag - Home',
   logoImg = 'logoOrakel.jpeg',
   indexImg = 'doormenora.jpeg'
 }) => (
-  <Layout title="Orakel Förlag - Home">
+  <Layout title={title}>
     <div className={styles.container}>
       <main className={styles.main}>
         <div>
