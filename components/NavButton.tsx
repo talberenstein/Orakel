@@ -1,18 +1,24 @@
 import Link from 'next/link';
-import { withRouter } from 'next/router';
-
+import { Router, withRouter } from 'next/router';
 import styles from '../styles/NavButton.module.scss';
 
-const NavButton = props => (
-  <Link href={props.path}>
+type NavButtonProps = {
+  label: string;
+  icon: Element;
+  router: Router;
+  path: string;
+};
+
+const NavButton: React.FC<NavButtonProps> = ({ label, icon, router, path }) => (
+  <Link href={path}>
     <div
-      className={`${styles.NavButton} ${
-        props.router.pathname === props.path ? styles.NavButton_active : ''
-      }
+      className={`
+      ${styles.NavButton} 
+      ${router.pathname === path && styles.NavButton_active}
         `}
     >
-      <div className={styles.Icon}>{props.icon}</div>
-      <span className={styles.Label}>{props.label}</span>
+      <div className={styles.Icon}>{icon}</div>
+      <span className={styles.Label}>{label}</span>
     </div>
   </Link>
 );

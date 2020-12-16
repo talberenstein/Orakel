@@ -1,3 +1,5 @@
+@import '../theme/theme';
+
 .NavButton {
   flex-direction: column;
   justify-content: space-around;
@@ -15,11 +17,11 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  color: darkolivegreen;
 
   cursor: pointer;
 
   .Label {
+    color: $highlight;
     font-size: 0.9em;
     text-transform: capitalize;
   }

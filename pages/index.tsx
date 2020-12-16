@@ -17,9 +17,9 @@ const Home: React.FC<HomeProps> = ({
   <Layout title={title}>
     <div className={styles.container}>
       <main className={styles.main}>
-        <div>
+        <>
           <Image className={styles.logo} src={logoImg} size="tiny" />
-        </div>
+        </>
         <Grid>
           <Grid.Row>
             <Grid.Column width={3}></Grid.Column>
@@ -42,9 +42,9 @@ const Home: React.FC<HomeProps> = ({
               <h1>Manus</h1>
             </Grid.Column>
             <Grid.Column width={8}>
-              <div>
+              <>
                 <Image className={styles.imgIndex} src={indexImg} />
-              </div>
+              </>
             </Grid.Column>
           </Grid.Row>
         </Grid>

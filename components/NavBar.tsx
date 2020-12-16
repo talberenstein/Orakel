@@ -1,7 +1,11 @@
 import styles from '../styles/NavBar.module.scss';
 import NavButton from './NavButton';
 
-const NavBar = ({ navButtons }) => (
+type NavBarProps = {
+  navButtons: any;
+};
+
+const NavBar: React.FC<NavBarProps> = ({ navButtons }) => (
   <div className={styles.NavBar}>
     {navButtons.map(button => (
       <NavButton

@@ -7,10 +7,12 @@ body,
 body > div:first-child,
 div#__next {
   height: 100vh;
+  font-family: 'Helvetica Neue', Arial, Monaco, Menlo, source-code-pro, Consolas,
+    'Courier New';
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: Monaco, Menlo, source-code-pro, Consolas, 'Courier New',
     monospace;
 }
 

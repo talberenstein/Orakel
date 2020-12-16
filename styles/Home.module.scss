@@ -1,3 +1,5 @@
+@import '../theme/theme';
+
 .container {
   background-color: rgb(1, 2, 1);
   padding: 1rem 1rem 4rem 1rem;
@@ -26,11 +28,13 @@
 }
 
 .title {
-  line-height: 1.15;
-  font-size: 2em;
   color: white;
-  text-align: left;
   cursor: pointer;
+  font-family: 'Helvetica Neue', Arial, Monaco, Menlo, source-code-pro,
+    sans-serif;
+  font-size: 2em;
+  line-height: 1.15;
+  text-align: left;
 }
 
 .title,
@@ -40,7 +44,7 @@
 }
 
 .title:hover {
-  color: darkolivegreen;
+  color: $highlight;
 }
 
 .description {
